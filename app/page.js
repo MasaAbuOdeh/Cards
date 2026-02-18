@@ -8,6 +8,7 @@ import BestClientCard from "@/components/bestCustomerCard";
 import ExpectationRecommendCard from "@/components/expectationRecomCard";
 import { BarChart3Icon } from "lucide-react";
 import ReportsCard from "@/components/reportsCard";
+import BookingsCard from "@/components/bookingsCard";
 export default function HomePage() {
   const { t } = useTranslation("common");
   return (
@@ -81,6 +82,9 @@ export default function HomePage() {
           title="Goal > 20"
           value={12}
         />
+        <BookingsCard
+        title="Total Bookings"
+        value={741}/>
       </div>
     </>
   );
