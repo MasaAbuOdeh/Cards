@@ -1,11 +1,11 @@
-const FinanceMoneyOutlineIcon = ({ size = 32, color = "#606e80", className, ...props }) => (
+const FinanceMoneyOutlineIcon = ({ size = 32, color = "#606e80", className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
     height={size}
     viewBox="0 0 32 32"
     className={className}
-    {...props}
+    {...rest}
   >
     <g id="finance_icon" transform="translate(0 -0.002)">
       <g id="Group_493" transform="translate(0 0.002)">

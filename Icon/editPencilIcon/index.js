@@ -1,11 +1,11 @@
-const EditPencilIcon = ({ size = 32, color = "#48a7a5", className, ...props }) => (
+const EditPencilIcon = ({ size = 32, color = "#48a7a5", className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
     height={size}
     viewBox="0 0 32 32"
     className={className}
-    {...props}
+    {...rest}
   >
     <circle cx="16" cy="16" r="16" fill="#fff" />
     <path
